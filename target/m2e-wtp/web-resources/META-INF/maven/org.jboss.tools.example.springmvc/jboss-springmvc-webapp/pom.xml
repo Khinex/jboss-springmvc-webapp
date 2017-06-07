@@ -206,7 +206,7 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
             <scope>runtime</scope>
-            <version>4.2.14.SP4-redhat-1</version>
+            <version>4.2.14.SP4-redhat-1</version><!--$NO-MVN-MAN-VER$-->
         </dependency>
 
         <!-- Annotation processor raises compilation errors whenever constraint
@@ -260,8 +260,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>4.3.8.RELEASE</version>
-        </dependency>
+            </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
